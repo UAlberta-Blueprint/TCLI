@@ -1,0 +1,34 @@
+﻿.c-section-pattern--circular:before, .l-section--offwhite .c-section-pattern--circular:before {
+    background-image: url(../images/circular-pattern.png);
+    background-size: 600px 600px;
+    background-position: -300px 0;
+    top: -100px;
+    background-position: calc(100% + 200px);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    -webkit-filter: hue-rotate( 800deg ) invert(0.4);
+    filter: hue-rotate( 800deg ) invert(0.4);
+}
+
+.c-section-pattern--circular1:before, .l-section--offwhite1 .c-section-pattern--circular1:before {
+    background-image: url(../images/circular-pattern.png);
+    background-size: 600px 600px;
+    background-position: -300px 0;
+    top: -100px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    -webkit-filter: hue-rotate( 800deg ) invert(0.4);
+    filter: hue-rotate( 800deg ) invert(0.4);
+}
